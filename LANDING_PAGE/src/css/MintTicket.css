@@ -1,0 +1,68 @@
+.btn-psn {
+    position: absolute;
+    width: 160px;
+    right: 20px;
+    top: 20px;
+}
+
+.container-mint {
+    margin-top: 100px;
+}
+
+.h1-mint {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.event-name {
+    display: block;
+    width: 300px;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.event-img {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.nft-img {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input[type=file]{
+    display: block;
+    margin-top: 15px;
+}
+
+.nft-price{
+    display: block;
+    width: 100px;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    margin-top: 15px;
+}
+
+.btn-mint{
+    display: block;
+    width: 120px;
+    height: 35px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-weight: bold;
+    color: yellow;
+    background-color: black;
+    margin-top: 60px;
+}
+.btn-mint:hover{
+    background-color: rgb(28, 27, 27);
+}

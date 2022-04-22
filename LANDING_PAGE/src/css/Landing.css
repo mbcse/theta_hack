@@ -1,0 +1,110 @@
+.header{
+    height: 650px; 
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 150px;
+    top: 150px;
+}
+
+.btn-center{
+    display: inline-flex;
+}
+
+@media only screen and (max-width: 767px) {
+    .btn-center{
+        text-align: center;
+        display: block;
+        margin-top: -140px;
+      }
+    .btn{
+        margin-left: -20px;
+        display: inline-block;
+    }
+    .header-text{
+        margin-left: -20px;
+    }
+    .logo {
+        display: block;
+        top: 300px;
+        right: auto;
+        left: auto;
+    }
+}
+
+.about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.7)) , url("./../images/about.jpeg");
+    background-color: black;
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.benefits {
+    height: 650px;
+    background-color: black;
+}
+@media only screen and (max-width: 1280px) {
+    .benefits {
+        height: 950px;
+        background-color: black;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .benefits {
+        height: 1700px;
+        background-color: black;
+    }
+}
+
+.roadmap {
+    height: 800px;
+    background-color: black;
+}
+@media only screen and (max-width: 1252px) {
+    .roadmap {
+        height: 900px;
+        background-color: black;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .roadmap {
+        height: 1100px;
+        background-color: black;
+    }
+}
+
+.faq {
+    height: 650px;
+    background-color: black;
+}
+@media only screen and (max-width: 1280px) {
+    .faq {
+        height: 900px;
+        background-color: black;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .faq {
+        height: 1400px;
+        background-color: black;
+    }
+}
+
+.home-link {
+    color: yellow;
+    text-decoration: underline;
+}
+.home-link:hover{
+    text-decoration: none;
+}
