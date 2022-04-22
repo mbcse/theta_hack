@@ -10,7 +10,6 @@
 ```bash
 git clone https://github.com/mbcse/theta_hack.git
 
-cd metertickets-marketplace
 ```
 
 2. install dependencies
@@ -32,7 +31,6 @@ npm run dev
 ```bash
 git clone https://github.com/mbcse/theta_hack.git
 
-cd metertickets-marketplace
 
 # install dependencies using `npm` or `yarn`.
 
@@ -55,7 +53,7 @@ npx hardhat node
 3. With the network running, deploy the contracts to the local network in a separate terminal window.
 
 ```bash
-npx hardhat run scripts/deploy.js --network meter
+npx hardhat run scripts/deploy.js --network theta
 ```
 
 4. Start the application.
