@@ -10,7 +10,7 @@ function Marketplace({ Component, pageProps }) {
           <h1 className="text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center">
             <div className="py-5">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
-                Ticketing Marketplace on Meter Blockchain
+                Ticketing Marketplace on Theta Blockchain
               </span>
             </div>
           </h1>
